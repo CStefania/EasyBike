@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="corners_radius">5dp</dimen>
+    <dimen name="strokes_width">1dp</dimen>
+    <dimen name="btn_strokes_width">1dp</dimen>
+    <dimen name="minimum_margin">5dp</dimen>
+    <dimen name="basic_padding">5dp</dimen>
+
+    <!--  Text sizes -->
+    <dimen name="dialog_title_text">16dp</dimen>
+    <dimen name="dialog_label_text">16dp</dimen>
+    <dimen name="dialog_edit_text">16dp</dimen>
+    <dimen name="dialog_generic_text">16dp</dimen>
+    <dimen name="generic_title_text">16dp</dimen>
+    <dimen name="generic_text">16dp</dimen>
+    
+</resources>

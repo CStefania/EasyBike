@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/generalBg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.easybike.TourDetailsActivity$PlaceholderFragment" >
+
+    <!-- Stops title -->
+
+    <TextView
+        android:id="@+id/stops_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:text="@string/stops_title"
+        android:textSize="@dimen/generic_title_text"
+        android:textStyle="bold" />
+
+    <!-- Stops list -->
+
+    <ListView
+        android:id="@+id/stops_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <!-- Number of stops line -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/stopnum_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stopnum_label"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/stopnum_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/minimum_margin"
+            android:text="@string/default_value"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Buttons line -->
+
+    <LinearLayout
+        android:id="@+id/buttonsLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_weight="0"
+        android:gravity="bottom" >
+
+        <Button
+            android:id="@+id/add_stop_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:text="@string/add_new_stop" />
+
+        <Button
+            android:id="@+id/start_tour_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/minimum_margin"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:text="@string/start_tour" />
+
+        <Button
+            android:id="@+id/end_tour_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:text="@string/end_tour"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/continue_tour_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/minimum_margin"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:text="@string/continue_tour"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

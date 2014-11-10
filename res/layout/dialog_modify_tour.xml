@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/basic_padding" >
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/abc_ab_transparent_light_holo"
+        android:gravity="center_horizontal"
+        android:text="@string/modify_tour"
+        android:textSize="@dimen/dialog_title_text"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin" >
+
+        <TextView
+            android:id="@+id/tourNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="center_horizontal"
+            android:text="@string/tour_label"
+            android:textSize="@dimen/dialog_label_text"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/tourNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/minimum_margin"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/insert_tour_name"
+            android:inputType="text"
+            android:textSize="@dimen/dialog_edit_text" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/errorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center_horizontal"
+        android:text="@string/tour_name_is_null"
+        android:textSize="@dimen/dialog_label_text"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+            <gradient android:angle="90" android:endColor="@color/btnEndBg" android:startColor="@color/btnStartBg" />
+            <corners android:radius="@dimen/corners_radius"/>
+            <stroke android:width="@dimen/btn_strokes_width" android:color="@color/btnStrokes" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+            <gradient android:angle="90" android:endColor="@color/btnEndBgP" android:startColor="@color/btnStartBgP" />
+            <stroke android:width="@dimen/btn_strokes_width" android:color="@color/btnStrokesP"/>
+            <corners android:radius="@dimen/corners_radius"/>
+        </shape>
+	</item>
+    <item android:state_activated="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+            <gradient android:angle="90" android:endColor="@color/btnEndBgP" android:startColor="@color/btnStartBgP" />
+            <stroke android:width="@dimen/btn_strokes_width" android:color="@color/btnStrokesP"/>
+            <corners android:radius="@dimen/corners_radius"/>
+        </shape>
+    </item>
+
+</selector>

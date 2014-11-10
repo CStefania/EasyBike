@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+	<solid android:color="@color/currentTourBg"/>
+
+    <stroke
+        android:width="@dimen/strokes_width"
+        android:color="@color/squareStrokes" />
+    <corners android:radius="@dimen/corners_radius"/>
+
+</shape>

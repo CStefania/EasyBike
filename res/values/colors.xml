@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!--  albicocca <color name="currentTourBg">#FFDEAD</color>
+    <color name="generalBg">#FFE6E6</color>
+    <color name="btnBg">#FFB280</color>
+    <color name="btnStrokes">#FF7F50</color>
+    <color name="btnText">#FFFFF0</color>
+    -->
+    
+    <color name="currentTourBg">#FFD119</color>
+    <color name="squareStrokes">#CC0000</color>
+    <color name="generalBg">#B0FFE5B4</color>
+    <color name="btnStartBg">#FF7518</color>
+    <color name="btnEndBg">#FF9933</color>
+    <color name="btnStrokes">#CC0000</color>
+    <color name="btnText">#FFFFFF</color>
+    <color name="btnStartBgP">#D0FF4F00</color>
+    <color name="btnEndBgP">#D0FF4F00</color>
+    <color name="btnStrokesP">#CC0000</color>
+    <color name="listSelection">#FFE5B4</color>
+    
+</resources>

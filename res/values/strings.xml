@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EasyBike</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Splash screen -->
+    <string name="current_tour">Current tour</string>
+    <string name="current_tour_default_text">No tour is currently <i>in progress</i></string>
+    <string name="continueBtn">Continue Tour</string>
+    <string name="reviewBtn">Review Tour</string>
+    <string name="startNewBtn">Start Another Tour</string>
+    <string name="planNewBtn">Create New Tour</string>
+    <string name="reviewAllBtn">Review All Tours</string>
+
+    <!-- Review all tours activity -->
+    <string name="tour_label">Tour name</string>
+    <string name="current_status">In progress</string>
+    <string name="to_start_status">To start</string>
+    <string name="completed_status">Completed</string>
+    <string name="current_status_title"><i>In progress</i> Tour</string>
+    <string name="to_start_status_title"><i>To start</i> Tours</string>
+    <string name="completed_status_title"><i>Completed</i> Tours</string>
+    <string name="no_current_tour">No tour is currently <i>in progress</i>!</string>
+    <string name="no_to_start_tour">No tour is currently <i>to start</i>!</string>
+    <string name="no_completed_tour">No tour is currently <i>completed</i>!</string>
+
+    <!-- Tour Details Activity -->
+    <string name="title_activity_tour_details">TourDetailsActivity</string>
+    <string name="title_section1">Tour Info</string>
+    <string name="title_section2">Tour Stops List</string>
+    <string name="title_section3">Tour Stops Map</string>
+    <string name="title_section4">Tour Diary</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tour">tour</string>
+
+    <!-- General info fragment -->
+    <string name="name_label">Tour name:</string>
+    <string name="status_label">Status:</string>
+    <string name="default_value">-</string>
+    <string name="totkm_label">Total distance:</string>
+    <string name="tottime_label">Total time:</string>
+    <string name="stopnum_label">Total stops:</string>
+    <string name="left_distance_label">Remaining distance:</string>
+    <string name="left_time_label">Remaining time:</string>
+    <string name="left_stopnum_label">Remaining stops:</string>
+    <string name="modify_tour">Modify Tour</string>
+    <string name="start_tour">Start Tour</string>
+    <string name="title_activity_tours_review">ToursReviewActivity</string>
+    <string name="tour_name_is_null">Tour name can\'t be empty!</string>
+
+    <!-- Stops list fragment -->
+    <string name="stops_title">Stops</string>
+    <string name="add_new_stop">Add new stop</string>
+    <string name="end_tour">End tour</string>
+    <string name="continue_tour">Continue tour</string>
+    <string name="time_label">Time:</string>
+    <string name="distance_label">Distance:</string>
+    <string name="previous_stop_label"><i>Previous Stop</i></string>
+
+    <!-- Add Stop Dialog -->
+    <string name="add_stop">Add stop</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_geolocation">Sorry, geolocation is currently unavailable</string>
+    <string name="no_result">Sorry, we couldn\'t retrieve a location for this address</string>
+    <string name="insert_stop_address">Insert stop address here</string>
+    
+    <!-- Map fragment -->
+    <string name="stop_number">Stop number</string>
+
+    <!-- Modify Tour Dialog -->
+    <string name="insert_tour_name">Insert tour name here</string>
+    <string name="save">Save</string>
+
+    <!-- Are you sure popups -->
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="ok">OK</string>
+    <string name="end_tour_popup">Ending the tour will change its status to <i>completed</i> and stop the navigation.</string>
+    <string name="modify_tour_popup">The tour modifications will be saved.</string>
+    <string name="start_tour_popup">Starting the tour will change its status to <i>in progress</i> and it will be no longer editable.</string>
+    <string name="complete_precedent_stops_popup">Marking this stop as <i>completed</i> will also mark as <i>completed</i> all previous stops.</string>
+	<string name="uncomplete_next_stops_popup">Marking this stop as <i>not completed</i> will also mark as <i>not completed</i> all subsequent stops.</string>
+    <string name="complete_stop_popup">This stop will be marked as <i>completed</i>.</string>
+    <string name="uncomplete_stop_popup">This stop will be marked as <i>not completed</i>.</string>
+    <string name="remove_stop">Delete Stop</string>
+    <string name="remove_stop_popup">This stop will be deleted permanently.</string>
+    <string name="complete_tour">End the tour?</string>
+    <string name="complete_tour_popup">All stops have been completed, do you want to end the tour?</string>
+    
+</resources>
